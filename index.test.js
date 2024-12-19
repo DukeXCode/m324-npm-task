@@ -1,5 +1,6 @@
 import { strict as assert } from 'assert'
 import { sum } from './index.js'
+import { describe, it } from 'mocha'
 
 describe('sum', () => {
   it('should return 3 for 1 + 2', () => {
